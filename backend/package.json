@@ -1,16 +1,12 @@
 {
   "name": "my-words-backend",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mongoose": "^7.3.2"
-  },
-  "devDependencies": {
-    "@ljharb/tsconfig": "^0.3.2"
+    "mongoose": "^7.3.2",
+    "dotenv": "^16.4.5"
   }
 }
