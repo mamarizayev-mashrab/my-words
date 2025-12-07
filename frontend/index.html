@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>My Words</title>
 </head>
 <body>
   <h1>Frontend ishlayapti!</h1>
 
-  <button onclick="getData()">Serverdan ma'lumot olish</button>
-
+  <button onclick="getTest()">Backend test</button>
   <pre id="result"></pre>
+
+  <h3>So'z qo'shish</h3>
+  <input id="wordInput" placeholder="So'z yozing">
+  <button onclick="addWord()">Qo'shish</button>
+
+  <h3>Barcha so'zlar</h3>
+  <button onclick="loadWords()">Yuklash</button>
+  <ul id="wordsList"></ul>
 
   <script src="script.js"></script>
 </body>
